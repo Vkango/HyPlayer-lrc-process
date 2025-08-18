@@ -1,3 +1,6 @@
+"""
+处理HyPlayer保存的歌词文件
+"""
 import os
 import re
 def process_lrc_line(line):
@@ -35,5 +38,5 @@ def traverse_directory(directory):
                 print(f'Processing {file_path}')
                 process_lrc_file(file_path)
 
-directory_path = 'D://LRC//'
+directory_path = 'C:\\Users\\Lenovo\\Music\\HyPlayer'
 traverse_directory(directory_path)

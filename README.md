@@ -1,4 +1,8 @@
-# lyrics_process.py
+# Aid.Scripts
+
+申必脚本库。**由AI申必力量驱动。**
+
+## lyrics_process.py
 
 处理HyPlayer保存的歌词文件。
 
@@ -22,3 +26,14 @@
 目前在Salt Player上可以正常使用。
 
 
+## matlab_data_viewer.py
+
+使用Tkinter将MATLAB数据文件(.mat)读取并进行可视化的小工具，支持多通道叠加。
+
+## tieba_client_sign.py
+
+百度贴吧HTTP Request的Sign值计算器。
+
+## tracker.py
+
+记录实验数据到CSV文件。
